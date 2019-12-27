@@ -2,7 +2,11 @@
   "name": "@teqniqly/norm-inv",
   "version": "1.1.2",
   "description": "Calculates the inverse of the normal cumulative distribution for the specified mean and standard deviation.",
-  "keywords": ["normal", "inverse", "distribution"],
+  "keywords": [
+    "normal",
+    "inverse",
+    "distribution"
+  ],
   "scripts": {
     "test": "node_modules/.bin/mocha --watch-extensions ts --watch -r ts-node/register test/**/*.spec.ts",
     "coverage": "nyc node_modules/.bin/mocha -r ts-node/register test/**/*.spec.ts",
